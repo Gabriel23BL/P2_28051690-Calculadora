@@ -1,5 +1,5 @@
 let display = document.getElementById('display');
-let expression = 'Introdusca los elementos';
+let expression = '';
 
 function appendNumber(number) {
     expression += number;
