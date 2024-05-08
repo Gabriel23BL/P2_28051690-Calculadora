@@ -87,3 +87,16 @@ function calculateCubeRoot() {
     displayValue = result.toString();
     updateDisplay();
 }
+function calculatePower() {
+    const values = displayValue.split('^');
+    if (values.length === 2) {
+        const base = parseFloat(values[0]);
+        const exponent = parseFloat(values[1]);
+        const result = Math.pow(base, exponent);
+        displayValue = result.toString();
+        updateDisplay();
+    } else {
+        displayValue = 'Error';
+        updateDisplay();
+    }
+}
