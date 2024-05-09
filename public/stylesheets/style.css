@@ -35,7 +35,9 @@ body {
 }
 
 .calculator button {
-    color: aqua;
+    border: #020f0f;
+    background-color: aqua;
+    color: rgb(6, 7, 7);
     width: 70px;
     padding: 10px;
     font-size: 18px;
