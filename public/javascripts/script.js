@@ -53,37 +53,41 @@ function calculate() {
 }
 
 function calculateSine() {
-    const x = parseFloat(displayValue);
+    
     const result = Math.sin(x);
+    const x = parseFloat(displayValue);
     displayValue = result.toString();
     updateDisplay();
 }
 
 function calculateCosine() {
-    const x = parseFloat(displayValue);
+    
     const result = Math.cos(x);
+    const x = parseFloat(displayValue);
     displayValue = result.toString();
     updateDisplay();
 }
 
 function calculateTangent() {
-    const x = parseFloat(displayValue);
+    
     const result = Math.tan(x);
+    const x = parseFloat(displayValue);
     displayValue = result.toString();
     updateDisplay();
 }
 
 function calculateSquareRoot() {
-    const x = parseFloat(
-displayValue);
+    
     const result = Math.sqrt(x);
+    const x = parseFloat(displayValue);
     displayValue = result.toString();
     updateDisplay();
 }
 
 function calculateCubeRoot() {
-    const x = parseFloat(displayValue);
+    
     const result = Math.cbrt(x);
+    const x = parseFloat(displayValue);
     displayValue = result.toString();
     updateDisplay();
 }
